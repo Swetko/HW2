@@ -198,4 +198,4 @@ Before                 |  After
 
 ## 5. Turn it in ##
 
-Turn in your `resize_image.cpp` and `filter_image.cpp` on Canvas under Assignment 1.
+Turn in your `resize_image.cpp` and `filter_image.cpp` on Canvas under Assignment 2.
