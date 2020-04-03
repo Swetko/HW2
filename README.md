@@ -4,7 +4,7 @@ Welcome friends,
 
 It's time for assignment 1! This one may be a little harder than the last one so remember to start early and save often! In order to make grading easier, please only edit the files we mention. You should be able to submit `resize_image.cpp` and `filter_image.cpp` and we should be able to compile and run them with a fresh clone of the repo without any other files.
 
-To start out this homework, copy over your `process_image.cpp` file from HW0 to the `src` file in this homework. We will be continuing to build out your image library. Do not copy `access_image.cpp` as that functionality has been built-in into `image.h`.
+To start out this homework, copy over your `process_image.cpp` file from HW1 to the `src` file in this homework. We will be continuing to build out your image library. Do not copy `access_image.cpp` as that functionality has been built-in into `image.h`.
 
 Follow instructions from last homework on set up.
 
