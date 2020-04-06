@@ -13,7 +13,8 @@ Follow instructions from last homework on set up.
 We've been talking a lot about resizing and interpolation in class, now's your time to do it! To resize we'll need some interpolation methods and a function to create a new image and fill it in with our interpolation methods.
 
 - Fill in `float Image::pixel_nearest(float x, float y, int c) const;` in `src/resize_image.cpp`
-    - It should perform nearest neighbor interpolation. Remember to use the closest `int`, not just type-cast because in C that will truncate towards zero. This is inside the `Image` class, so for convenience use the member function `pixel(a,b,c)` instead of the access operator `()`.
+    - It should perform nearest neighbor interpolation. Remember to use the closest `int`, not just type-cast because in C that will truncate towards zero. This is inside the `Image` class, so for convenience use the member function `clamped_pixel(a,b,c)` instead of the access operator `()`.
+    - Note: Make sure you consider the pixel coordinate convention we mentioned in lecture.
 - Fill in `Image nearest_resize(const Image& im, int w, int h);`. It should:
     - Create a new image that is `w x h` and the same number of channels as `im`
     - Loop over the pixels and map back to the old coordinates
